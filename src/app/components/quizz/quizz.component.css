@@ -1,48 +1,62 @@
-.quizz__container{
+.quizz__container {
   width: 80%;
   margin: auto;
-  margin-top: 20px;
+  margin-top: 60px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-.quizz_logo{
+.quizz_logo {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   margin-bottom: 10px;
+  gap: 10px;
 }
 
-.quizz_logo > h3{
+.quizz_logo > h3 {
   margin-top: 20px;
 }
 
-.quizz_questions{
+.quizz_questions {
   display: flex;
   justify-content: center;
   align-items: center;
-  border:1px solid #4224d9;
+  border: 3px solid #1544c7;
   border-radius: 8px;
-  background-color: #644ED2;
+  background-color: #4e9dd2;
   width: 100%;
+  max-width: 700px;
   height: 200px;
   font-size: 20px;
-  font-family: 'Segoe UI';
+  font-family: "Segoe UI";
   margin-bottom: 20px;
 }
 
-.quizz_options{
+.quizz_questions > h3 {
+  width: 80%;
+  text-align: center;
+}
+
+.quizz_options {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  margin: auto;
-  margin-bottom: 20px;
+  gap: 10px;
+  width: 100%;
+  max-width: 700px;
 }
 
-.btn-option{
-  background-color: transparent;
+.btn-option {
+  background-color: #ff8800;
   border-radius: 8px;
-  border: 1px solid #18ab29;
-  width: 50%;
+  width: 40%;
+  max-width: 300px;
   display: inline-block;
   cursor: pointer;
   color: #ffffff;
@@ -50,26 +64,28 @@
   font-size: 17px;
   padding: 16px 31px;
   text-decoration: none;
-  text-shadow: 0px 1px 0px #2f6627;
 }
 
-.btn-option:hover{
-  background-color: #5cbf2a;
+.btn-option:hover {
+  background-color: #bb5c04;
 }
 
-.btn-option:active{
+.btn-option:active {
   position: relative;
-  top:1px;
+  top: 1px;
 }
 
-.quizz_results{
-  width: 100%;
+.quizz_results {
+  width: 80%;
+  max-width: 700px;
   height: 350px;
-  background-color: #1F0539;
+  text-align: center;
+  background-color: #051639;
   border-radius: 10px;
   padding: 30px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
 }

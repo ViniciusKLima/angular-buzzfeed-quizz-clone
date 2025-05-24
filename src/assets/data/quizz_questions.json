@@ -1,55 +1,55 @@
 {
-  "title":"Você seria um heroi ou vilão ?",
-  "questions":[
+  "title": "Qual personagem de anime você seria? 🗡️🍥",
+  "questions": [
     {
-      "id":1,
-      "question": "Qual super poder você escolheria ?",
-      "options":[
-        {"id": 1, "name":"Raios-Lasers", "alias":"A"},
-        {"id": 2, "name":"Voar", "alias":"B"},
-        {"id": 3, "name":"Explodir coisas", "alias":"A"},
-        {"id": 4, "name":"Curar feridas", "alias":"B"},
-        {"id": 5, "name":"Soltar fogo pelas mãos", "alias":"A"}
+      "id": 1,
+      "question": "Qual dessas habilidades você gostaria de ter?",
+      "options": [
+        { "id": 1, "name": "Controlar o fogo", "alias": "A" },
+        { "id": 2, "name": "Super velocidade", "alias": "B" },
+        { "id": 3, "name": "Espada mágica", "alias": "A" },
+        { "id": 4, "name": "Clones das sombras", "alias": "B" },
+        { "id": 5, "name": "Poder psíquico", "alias": "A" }
       ]
     },
     {
-      "id":2,
-      "question": "Quem você salvaria primeiro ?",
-      "options":[
-        {"id": 1, "name":"Crianças", "alias":"A"},
-        {"id": 2, "name":"Idosos", "alias":"A"},
-        {"id": 3, "name":"Não saberia escolher", "alias":"B"}
+      "id": 2,
+      "question": "Como você age em grupo?",
+      "options": [
+        { "id": 1, "name": "Sou o líder da equipe", "alias": "B" },
+        { "id": 2, "name": "Prefiro trabalhar sozinho", "alias": "A" },
+        { "id": 3, "name": "Protejo meus amigos a qualquer custo", "alias": "B" }
       ]
     },
     {
-      "id":3,
-      "question": "Qual a sua maior preocupação ao enfretar outro super ser ?",
-      "options":[
-        {"id": 1, "name":"Não destruir prédios", "alias":"B"},
-        {"id": 2, "name":"Socar a cara do inimigo", "alias":"A"},
-        {"id": 3, "name":"Não sujar meu traje", "alias":"A"},
-        {"id": 4, "name":"Não deixar ninguém se ferir", "alias":"B"}
+      "id": 3,
+      "question": "Qual seria sua motivação em uma batalha?",
+      "options": [
+        { "id": 1, "name": "Vingar algo do passado", "alias": "A" },
+        { "id": 2, "name": "Proteger quem eu amo", "alias": "B" },
+        { "id": 3, "name": "Me tornar o mais forte", "alias": "A" },
+        { "id": 4, "name": "Manter a paz", "alias": "B" }
       ]
     },
     {
-      "id":4,
-      "question": "Qual o seu maior foco ?",
-      "options":[
-        {"id": 1, "name":"Ficar rico com poderes", "alias":"A"},
-        {"id": 2, "name":"Salvar a cidade", "alias":"B"}
+      "id": 4,
+      "question": "Escolha uma frase que te define:",
+      "options": [
+        { "id": 1, "name": "\"Eu nunca desisto!\"", "alias": "B" },
+        { "id": 2, "name": "\"A dor me fortaleceu.\"", "alias": "A" }
       ]
     },
     {
-      "id":5,
-      "question": "Qual o seu apelido de super ser ?",
-      "options":[
-        {"id": 1, "name":"O Terrivel", "alias":"A"},
-        {"id": 2, "name":"Amigo da vizinhança", "alias":"B"}
+      "id": 5,
+      "question": "Qual ambiente você prefere?",
+      "options": [
+        { "id": 1, "name": "Floresta silenciosa", "alias": "A" },
+        { "id": 2, "name": "Cidade movimentada", "alias": "B" }
       ]
     }
   ],
-  "results":{
-    "A": "Você muito provavelmente seria um super vilão!",
-    "B": "Você muito provavelmente seria um super Herói!"
+  "results": {
+    "A": "Você seria um personagem sombrio e poderoso, como Sasuke ou Zoro!",
+    "B": "Você seria um herói determinado e otimista, como Naruto ou Deku!"
   }
 }
